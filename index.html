@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aicha Fitouri | Full stack Developer & Junior Product Owner </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Curseur personnalisé -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Effet de fond animé -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Aicha<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge reveal">
+                <span class="pulse-dot"></span>
+                Disponible pour de nouvelles opportunités
+            </div>
+            <h1 class="reveal">
+                <span class="hero-line">Junior Product Owner</span>
+                <span class="hero-line gradient-text">& Full stack Developer</span>
+                
+            </h1>
+            <p class="hero-description reveal">
+                Je suis <strong>Aicha Fitouri</strong>, passionnée par la création de produits
+                digitaux centrés utilisateur. Je combine compétences techniques et vision
+                produit pour transformer des idées en expériences mémorables.
+            </p>
+            <div class="hero-buttons reveal">
+                <a href="#projets" class="btn btn-primary">
+                    <span>Voir mes projets</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#contact" class="btn btn-ghost">Me contacter</a>
+            </div>
+            <div class="hero-stats reveal">
+                <div class="stat">
+                    <span class="stat-number" data-count="6">0</span>
+                    <span class="stat-label">Projets réalisés</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="4">0</span>
+                    <span class="stat-label">Stages</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="5">0</span>
+                    <span class="stat-label">Certifications</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about">
+        <div class="section-header reveal">
+            <span class="section-tag">01 — À propos</span>
+            <h2>Qui suis-je ?</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-image reveal">
+                <div class="avatar-wrapper">
+                    <div class="avatar">AF</div>
+                    <div class="avatar-ring"></div>
+                </div>
+                <div class="floating-card card-1">
+                    <span>🎓</span> Master Ingénierie
+                </div>
+                <div class="floating-card card-2">
+                    <span>💼</span> Product Owner
+                </div>
+            </div>
+            <div class="about-text reveal">
+                <p class="lead">
+                    Diplômée en Sciences de l'Informatique et en dernière année de
+                    <strong>Master Professionnel en Ingénierie du Logiciel et des Connaissances</strong>,
+                    je m'intéresse particulièrement au Product Management et à la gestion de projet digital.
+                </p>
+                <p>
+                    Mes expériences en tant que Product Owner sur plusieurs projets académiques
+                    et lors de mon stage m'ont permis de développer une approche centrée utilisateur,
+                    tout en combinant mes compétences techniques avec la gestion de produit,
+                    l'analyse des besoins et la coordination des équipes.
+                </p>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <span class="info-label">Localisation</span>
+                            <span class="info-value">Tataouine, Tunisie</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🌐</span>
+                        <div>
+                            <span class="info-label">Langues</span>
+                            <span class="info-value">Arabe · Français · Anglais</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🎯</span>
+                        <div>
+                            <span class="info-label">Spécialité</span>
+                            <span class="info-value">Product Management</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">⚡</span>
+                        <div>
+                            <span class="info-label">Méthodes</span>
+                            <span class="info-value">Agile · Scrum</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Expériences -->
+    <section id="experiences" class="experiences">
+        <div class="section-header reveal">
+            <span class="section-tag">02 — Parcours</span>
+            <h2>Expériences professionnelles</h2>
+        </div>
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+                <div class="timeline-marker">
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <span class="timeline-date">Juillet — Août 2026</span>
+                        <span class="timeline-badge">Stage</span>
+                    </div>
+                    <h3>Product Owner</h3>
+                    <h4>LalaChante · France · Télétravail</h4>
+                    <ul>
+                        <li>Suivi de l'avancement des développements et coordination des développeurs</li>
+                        <li>Vérification et validation des tickets selon la Definition of Done (DoD)</li>
+                        <li>Création, rédaction et gestion des tickets dans le backlog produit</li>
+                        <li>Participation aux Daily Meetings et réunions de planification</li>
+                        <li>Contribution à la planification des sprints et structuration des Epics</li>
+                        <li>Modélisation des parcours utilisateurs sur Figma/FigJam</li>
+                        <li>Onboarding et accompagnement des nouveaux arrivants</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-marker">
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <span class="timeline-date">Fév — Avril 2025</span>
+                        <span class="timeline-badge">Stage</span>
+                    </div>
+                    <h3>Développeuse Front-End</h3>
+                    <h4>InnovQube · France · Télétravail</h4>
+                    <ul>
+                        <li>Développement d'interfaces utilisateur en respectant les maquettes fournies</li>
+                        <li>Intégration des APIs en collaboration avec l'équipe backend</li>
+                        <li>Gestion de service et suivi des incidents</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-marker">
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <span class="timeline-date">Août — Sept 2024</span>
+                        <span class="timeline-badge">Stage</span>
+                    </div>
+                    <h3>Assistante unité de gestion de service</h3>
+                    <h4>Complexe Technique de Tunisie Télécom · Tunisie</h4>
+                    <ul>
+                        <li>Suivi et mise à jour des incidents dans le système interne</li>
+                        <li>Garantie d'une réponse rapide aux utilisateurs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-marker">
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <span class="timeline-date">Juin — Juillet 2023</span>
+                        <span class="timeline-badge">Stage</span>
+                    </div>
+                    <h3>Assistante département informatique</h3>
+                    <h4>Banque STB · Tunisie</h4>
+                    <ul>
+                        <li>Découverte du système d'information bancaire</li>
+                        <li>Observation du fonctionnement des services informatiques</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <div class="section-header reveal">
+            <span class="section-tag">03 — Réalisations</span>
+            <h2>Mes projets</h2>
+        </div>
+        <div class="projects-grid">
+
+            <div class="project-card reveal">
+                <div class="project-glow"></div>
+                <div class="project-icon">🎬</div>
+                <h3>Plateforme films & séries</h3>
+                <p>Plateforme web pour la gestion et la découverte de films et séries.</p>
+                <div class="project-tags">
+                    <span>Web</span><span>UX</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-glow"></div>
+                <div class="project-icon">✈️</div>
+                <h3>Compagnie aérienne</h3>
+                <p>Application web pour la gestion des vols et réservations.</p>
+                <div class="project-tags">
+                    <span>Web</span><span>Product</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-glow"></div>
+                <div class="project-icon">🤖</div>
+                <h3>Classification d'images IA</h3>
+                <p>Application web de classification automatique d'images par IA.</p>
+                <div class="project-tags">
+                    <span>IA</span><span>Web</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-glow"></div>
+                <div class="project-icon">🎨</div>
+                <h3>Galerie d'art en ligne</h3>
+                <p>Plateforme web pour exposer et découvrir des œuvres d'art.</p>
+                <div class="project-tags">
+                    <span>Web</span><span>Design</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-glow"></div>
+                <div class="project-icon">🚗</div>
+                <h3>Plateforme auto-école</h3>
+                <p>Application web pour la gestion d'une auto-école.</p>
+                <div class="project-tags">
+                    <span>Web</span><span>Gestion</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-glow"></div>
+                <div class="project-icon">♻️</div>
+                <h3>Déchets urbains IoT</h3>
+                <p>Plateforme IoT pour la gestion intelligente des déchets urbains.</p>
+                <div class="project-tags">
+                    <span>IoT</span><span>Web</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills-section">
+        <div class="section-header reveal">
+            <span class="section-tag">04 — Expertise</span>
+            <h2>Compétences</h2>
+        </div>
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+                <div class="skill-header">
+                    <span class="skill-icon">💻</span>
+                    <h3>Langages</h3>
+                </div>
+                <div class="tags">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    <span>Python</span><span>PHP</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-header">
+                    <span class="skill-icon">⚙️</span>
+                    <h3>Frameworks</h3>
+                </div>
+                <div class="tags">
+                    <span>React.js</span><span>Laravel</span><span>Django</span>
+                    <span>Angular Ionic</span><span>Bubble.io</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-header">
+                    <span class="skill-icon">🗄️</span>
+                    <h3>Bases de données</h3>
+                </div>
+                <div class="tags">
+                    <span>MySQL</span><span>MongoDB</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-header">
+                    <span class="skill-icon">🎨</span>
+                    <h3>Design</h3>
+                </div>
+                <div class="tags">
+                    <span>Figma</span><span>Canva</span><span>Lovable</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-header">
+                    <span class="skill-icon">📋</span>
+                    <h3>Gestion de projet</h3>
+                </div>
+                <div class="tags">
+                    <span>Jira</span><span>Notion</span><span>Discord</span>
+                    <span>Scrum</span><span>Agile</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-header">
+                    <span class="skill-icon">🏅</span>
+                    <h3>Certifications</h3>
+                </div>
+                <ul class="certif-list">
+                    <li>Scrum Master & Agile Scrum — Udemy (2026)</li>
+                    <li>Gestion de projet Agile — HP LIFE (2025)</li>
+                    <li>Responsive Web Design — freeCodeCamp (2025)</li>
+                    <li>Soft Skills : Leadership & Équipe (2024)</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="contact-wrapper reveal">
+            <div class="section-header">
+                <span class="section-tag">05 — Contact</span>
+                <h2>Travaillons ensemble</h2>
+            </div>
+            <p class="contact-intro">
+                Vous avez un projet ou une opportunité à me proposer ?
+                N'hésitez pas à me contacter, je serai ravie d'échanger avec vous.
+            </p>
+            <div class="contact-info">
+                <a href="mailto:aichafitouri17@gmail.com" class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <span>aichafitouri17@gmail.com</span>
+                </a>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <span>Tataouine, Tunisie</span>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Votre nom" required>
+                    <input type="email" placeholder="Votre email" required>
+                </div>
+                <textarea placeholder="Votre message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">
+                    <span>Envoyer le message</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Aicha<span>.</span></div>
+            <p>&copy; 2026 Aicha Fitouri. Tous droits réservés.</p>
+            <p class="footer-tagline">Product Owner · Chef de Projet Digital · Passionnée par l'innovation</p>
+        </div>
+    </footer>
+
+    <script>
+        // ===== Curseur personnalisé =====
+        const cursor = document.querySelector('.cursor');
+        const follower = document.querySelector('.cursor-follower');
+
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+            setTimeout(() => {
+                follower.style.left = e.clientX + 'px';
+                follower.style.top = e.clientY + 'px';
+            }, 80);
+        });
+
+        document.querySelectorAll('a, button, .project-card, .skill-card').forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cursor.classList.add('hover');
+                follower.classList.add('hover');
+            });
+            el.addEventListener('mouseleave', () => {
+                cursor.classList.remove('hover');
+                follower.classList.remove('hover');
+            });
+        });
+
+        // ===== Révélation au scroll =====
+        const reveals = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('active');
+                    }, index * 100);
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.15 });
+
+        reveals.forEach(el => revealObserver.observe(el));
+
+        // ===== Compteurs animés =====
+        const counters = document.querySelectorAll('.stat-number');
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const target = +entry.target.dataset.count;
+                    let current = 0;
+                    const increment = target / 50;
+                    const updateCounter = () => {
+                        current += increment;
+                        if (current < target) {
+                            entry.target.textContent = Math.ceil(current);
+                            requestAnimationFrame(updateCounter);
+                        } else {
+                            entry.target.textContent = target + '+';
+                        }
+                    };
+                    updateCounter();
+                    counterObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        counters.forEach(c => counterObserver.observe(c));
+
+        // ===== Menu mobile =====
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+
+        // ===== Effet parallaxe sur les glows =====
+        document.addEventListener('mousemove', (e) => {
+            const x = (e.clientX / window.innerWidth - 0.5) * 30;
+            const y = (e.clientY / window.innerHeight - 0.5) * 30;
+            document.querySelector('.bg-glow-1').style.transform = `translate(${x}px, ${y}px)`;
+            document.querySelector('.bg-glow-2').style.transform = `translate(${-x}px, ${-y}px)`;
+        });
+
+        // ===== Navigation active au scroll =====
+        const sections = document.querySelectorAll('section[id]');
+        const navItems = document.querySelectorAll('.nav-links a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 150;
+                if (window.scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+            navItems.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
